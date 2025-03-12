@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import Card from "./Card";
 import Jumbotron from "./Jumbotron";
 import Footer from "./Footer";
@@ -7,7 +8,7 @@ const Home = () => {
 	return (
 		<div className="mx-auto">
 			{/*  navbar */}
-			
+			<Navbar title={"Start Bootstrap"} />
 			{/*  jumbotron */}
 			<div className="d-flex w-75 mx-auto bg-light">
 				<Jumbotron/>
